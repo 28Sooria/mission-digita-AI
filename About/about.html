@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-driven Learning</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+    <style>
+      
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" onclick="toggleMenu()">
+          <img src="images/image (2).png" alt="Toggle Menu Icon" />
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Close button under Home link -->
+          <button class="close-btn" onclick="toggleMenu()">&times;</button>
+    
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="../Home/home.html" onclick="setActive(this)">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="setActive(this)">My courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../About/about.html" onclick="setActive(this)">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Vision/vision.html" onclick="setActive(this)">Vision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../service page/service.html" onclick="setActive(this)">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../careers page/career.html" onclick="setActive(this)">Careers</a>
+            </li>
+          </ul>
+          <a href="#" class="btn contact-btn">Get in Touch</a>
+          <img src="images/image 1 (1).png" class="search" alt="Search Icon" />
+        </div>
+      </nav>
+    
+      <!-- Overlay for popup effect -->
+      <div class="nav-overlay" id="navOverlay" onclick="toggleMenu()"></div>
+
+
+      <section class="mission-text">
+        <div class="container my-5">
+          <div class="row align-items-center">
+              <div class="col-md-5 col-lg-6 col-sm-12">
+                  <h2 class="display-6">
+                      <span class="highlight-primary" style="color: #D33434;">   About    </span> Mission <br>  Digital AI <br> Portal
+                  </h2>
+              </div>
+              <div class="col-md-7 col-lg-6 col-sm-12">
+                  <p>  Mission Digital AI is an innovative platform which educates children start their journey into AI. The Mission Digital AI blends education and technology, focusing on AI to create an interactive learning environment by offering personalized lessons, gamified challenges, and real-world applications, it makes complex subjects accessible to learners of all backgrounds.  </p>
+              
+              </div>
+          </div>
+      </div>
+
+      <div class="text-center">
+        <img src="images/banner-about.png" alt="Mission Digital AI" class="img-fluid" style="max-width: 100%; height: auto;">
+    </div>
+  
+      </section>
+
+
+      <section class="about-ai">
+        <div class="container my-5">
+          <div class="row">
+              <!-- First Column: Image -->
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                  <img src="images/Group 1 (4).png" alt="Sample Image" class="img-fluid" style="max-width: 100%; height: auto; border-radius: 10px;">
+              </div>
+      
+              <!-- Second Column: Text Content -->
+              <div class="col-md-6 col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
+                  <h6 style=" font-size: 20px;
+                  font-weight: 400;
+                  color: #000;">    / About CubeAi Solutions /             </h6>
+                  <h2 style=" font-size: 30px;
+                  font-weight: 600;
+                  color: #000;">   "Bringing AI learning to the forefront of education with Cube AI Solutions advanced technology."       </h2>
+                  <p style="font-size: 20px;">  Mission Digital AI, an initiative by Cube AI Solutions, is committed to transforming education by making artificial intelligence training accessible to learners around the globe. With a focus on interactive content, gamified learning, and personalized AI tutoring, we aim to inspire and equip students to succeed in the rapidly evolving tech landscape    </p>
+                  <p style="font-size: 20px;">     Our mission is to empower learners by providing them with the tools and knowledge they need to excel in a tech-driven future              </p>
+                  <button class="custom-button" style=" background-color: #FFB642;
+                  color: #000000;
+                  border: none;
+                  padding: 10px 20px;
+                  border-radius: 20px;
+                  font-size: 16px;
+                  cursor: pointer;
+                  outline: none;
+                  transition: background-color 0.3s;">Contact Us</button> 
+              </div>
+          </div>
+      </div>
+      </section>
+
+
+
+   <section class="why-choose" style="background-image: url(./images/);">
+    <div class="container-fluid my-5">
+        <div class="row">
+            <!-- Sidebar Section (Tabs) -->
+            <div class="col-md-4" style="background-color: #040053;padding-top: 65px;padding-bottom: 65px;">
+                <p class="text-muted" style="color: #FFFFFF !important;">/ why choose us /</p>
+                <h2 style="font-size: 20px;
+                font-weight: 400;
+                color: #000;color: #FFFFFF;">Why Choose Us</h2>
+                <ul class="nav flex-column nav-pills mt-4" id="whyChooseUsTab" role="tablist">
+                    <li class="nav-item tab-item">
+                        <button class="nav-link active" id="experience-tab" data-bs-toggle="pill" data-bs-target="#experience" type="button" role="tab" aria-controls="experience" aria-selected="true">Practical, Real-World Experience</button>
+                    </li>
+                    <li class="nav-item tab-item">
+                        <button class="nav-link" id="accessibility-tab" data-bs-toggle="pill" data-bs-target="#accessibility" type="button" role="tab" aria-controls="accessibility" aria-selected="false">Global Reach & Accessibility</button>
+                    </li>
+                    <li class="nav-item tab-item">
+                        <button class="nav-link" id="certifications-tab" data-bs-toggle="pill" data-bs-target="#certifications" type="button" role="tab" aria-controls="certifications" aria-selected="false">Recognized Certifications</button>
+                    </li>
+                    <li class="nav-item tab-item">
+                        <button class="nav-link" id="career-tab" data-bs-toggle="pill" data-bs-target="#career" type="button" role="tab" aria-controls="career" aria-selected="false">Future-Proof Your Career</button>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Content Section (Tab Content) -->
+            <div class="col-md-8" style="background-image: url(./images/image.png);padding-top: 65px;padding-bottom:65px;color:  #FFFFFF;">
+                <div class="tab-content" id="whyChooseUsTabContent">
+                    <!-- First Tab Content -->
+                    <div class="tab-pane fade show active" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+
+                        <div class="row">
+                            <!-- Left Column: Text Content -->
+                            <div class="col-md-6 col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
+                                <h3>Practical, Real-World Experience</h3>
+                                <p>We focus on applying AI and cybersecurity knowledge to real-world problems. Our hands-on projects and scenarios ensure that you’re not just learning theory, but gaining practical skills that can be applied in your career.</p>
+                                
+                                <div class="feature-list">
+                                    <p><strong>Hands-on Projects</strong></p>
+                                    <p><strong>Collaboration with Experts</strong></p>
+                                    <p><strong>Problem-Solving Scenarios</strong></p>
+                                    <p><strong>Real-time Opportunity</strong></p>
+                                </div>
+                            </div>
+                            
+                            <!-- Right Column: Image -->
+                            <div class="col-md-6 col-lg-6 col-sm-12 d-flex align-items-center">
+                                <img src="images/image (1).png" alt="Feature image" class="highlight-image">
+                            </div>
+                        </div>
+
+                    </div>
+    
+                    <!-- Second Tab Content -->
+                    <div class="tab-pane fade" id="accessibility" role="tabpanel" aria-labelledby="accessibility-tab">
+
+                        <div class="row">
+                            <!-- Left Column: Text Content -->
+                            <div class="col-md-6 col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
+                                <h3>Global Reach & Accessibility</h3>
+                                <p>We provide educational resources and AI solutions accessible globally, ensuring that everyone, regardless of location, can benefit from our innovative technologies.</p>
+                                
+                                <div class="feature-list">
+                                    <p><strong>Worldwide Access</strong></p>
+                                    <p><strong>Inclusive Learning Environment</strong></p>
+                                    <p><strong>24/7 Support</strong></p>
+                                </div>
+                            </div>
+                            
+                            <!-- Right Column: Image -->
+                            <div class="col-md-6 col-lg-6 col-sm-12 d-flex align-items-center">
+                                <img src="images/image (1).png" alt="Global reach image" class="highlight-image">
+                            </div>
+                        </div>
+
+                    </div>
+    
+                    <!-- Third Tab Content -->
+                    <div class="tab-pane fade" id="certifications" role="tabpanel" aria-labelledby="certifications-tab">
+                      
+                        <div class="row">
+                            <!-- Left Column: Text Content -->
+                            <div class="col-md-6 col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
+                                <h3>Recognized Certifications</h3>
+                                <p>Gain certifications that are recognized by industry leaders, helping you stand out in the job market and advance in your career.</p>
+                                
+                                <div class="feature-list">
+                                    <p><strong>Industry-Standard Certifications</strong></p>
+                                    <p><strong>Skill Validation</strong></p>
+                                    <p><strong>Career Advancement</strong></p>
+                                </div>
+                            </div>
+                            
+                            <!-- Right Column: Image -->
+                            <div class="col-md-6 col-lg-6 col-sm-12 d-flex align-items-center">
+                                <img src="images/image (1).png" alt="Certification image" class="highlight-image">
+                            </div>
+                        </div>
+
+                    </div>
+    
+                    <!-- Fourth Tab Content -->
+                    <div class="tab-pane fade" id="career" role="tabpanel" aria-labelledby="career-tab">
+                        <div class="row">
+                            <!-- Left Column: Text Content -->
+                            <div class="col-md-6 col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
+                                <h3>Future-Proof Your Career</h3>
+                                <p>Prepare for the future by learning skills that will remain relevant and valuable in the fast-evolving tech industry.</p>
+                                
+                                <div class="feature-list">
+                                    <p><strong>Continuous Learning</strong></p>
+                                    <p><strong>Adaptability</strong></p>
+                                    <p><strong>Career Longevity</strong></p>
+                                </div>
+                            </div>
+                            
+                            <!-- Right Column: Image -->
+                            <div class="col-md-6 col-lg-6 col-sm-12 d-flex align-items-center">
+                                <img src="images/image (1).png" alt="Career growth image" class="highlight-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+    
+<section class="empowering-learning">
+    <div class="container my-5">
+      <div class="row">
+          <!-- First Column: Text Content with Progress Bars -->
+          <div class="col-md-6 col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
+              <h6 style="font-size: 20px; font-weight: 400; color: #000;">Our Expertise</h6>
+              <h2 style="font-size: 30px; font-weight: 600; color: #000;">We are dedicated to delivering high-quality solutions. Here’s an overview of our skills:</h2>
+              <p style="font-size: 20px; padding-bottom: 35px;">As a key initiative under Cube AI Solutions, Mission Digital AI leverages the power of artificial intelligence to revolutionize the way people learn.</p>
+  
+              <!-- Progress Bars -->
+              <div class="mb-3">
+                  <label for="progress1" class="form-label" style="font-size: 20px; color: #000000;">Curriculum Design Expertise</label>
+                  <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #03103D;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+              </div>
+  
+              <div class="mb-3">
+                  <label for="progress2" class="form-label" style="font-size: 20px; color: #000000;">AI-Driven Personalization</label>
+                  <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 70%; background-color: #D33434;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+              </div>
+  
+              <div class="mb-3">
+                  <label for="progress3" class="form-label" style="font-size: 20px; color: #000000;">Interactive and Engaging Content</label>
+                  <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #03103D;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                  </div>
+              </div>
+          </div>
+  
+          <!-- Second Column: Image -->
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <img src="images/Group 1 (5).png" alt="Sample Image" class="img-fluid" style="max-width: 100%; height: auto; border-radius: 10px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container pt-3 footer-box">
+    <div class="row p-2">
+        <div class=" col-12 col-md-6">
+            <div class="text-center text-md-start ms-md-4">
+            <h3><span style="color: #066790;">LO</span><span style="color: brown;">GO</span></h3>
+
+            <h3  class="gradient-text mb-3">Seamless access to innovative AI solutions</h3>
+            </div>
+        </div>
+        <div class=" col-md-6 text-light">
+            <div class="row">
+                <div class="col-6 text-center">
+                <h5 class="fw-bold">Company</h5>
+                <p class="mt-3">Careers</p>
+                <p>About</p>
+                <p> LearnWithAI</p>
+                <p> Virtual AI</p>
+                <p>AI-Powered</p>
+                <p> AIEducation</p>
+                <p>Tutoring</p>
+                </div>
+                 <div class="col-6 text-center">
+                <h5 class="fw-bold">Services</h5>
+                <p class="mt-3">Blogs</p>
+                <p>AI Solutions </p>
+                <p>Computer Vision</p>
+                <p>AI Automation</p>
+                <p>LLM</p>
+                <p> Global reach</p>
+                <p>Certificate</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="small-box " style="background-color: white;">
+        <div class="row text-center pt-4">
+            <div class="col-md-6 ">
+                <p><a class="text-dark text-decoration-none" href="#">Cube@2024,All Rights Reserved</a></p>
+            </div>
+            <div class="col-md-6">
+               <p><a class="text-dark text-decoration-none" href="#">Terms of Use Policy.Environmental Policy</a></p> 
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="header.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+body{
+    background-color: #F8F3F3;
+}
+.container, .container-fluid {
+    overflow: hidden;
+}
+/* image slider */
+.img {
+    height: 370px;
+    width: 240px;
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.image-slider-section {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide_div {
+    margin: 0 15px;
+}
+
+.bottom-center {
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    height: 15%;
+    width: 20%; 
+}
+
+@media (min-width: 768px) {
+    .bottom-center {
+        width: 20%; 
+    }
+}
+
+@media (min-width: 1200px) {
+    .bottom-center {
+        width: 15%; 
+    }
+}
+.footer-box{
+    background-color: #040053;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.divider {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .divider::before, .divider::after {
+    content: "";
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    background-color: #ddd;
+    vertical-align: middle;
+  }
+  .contact-form {
+    background-color: #7fdefa; /* Light blue background for the form */
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #333;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #00aaff;
+}
+
+.btn-custom {
+    background-color: #ffaa42; /* Button background color */
+    color: #fff; /* Button text color */
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #e5942d;
+}
+
+.send-icon {
+    margin-right: 10px;
+}
+.gradient-text {
+    font-weight: bold;
+    background: linear-gradient(90deg, #D33434, #066790);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.small-box{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+/* header css  */
+/* General navbar styles */
+.navbar {
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    height: 80px;
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+    color: red;
+    padding-top: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.nav-item .nav-link {
+    color: #000;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.nav-item .nav-link.active {
+    background-color: #000080;
+    color: #fff;
+    border-radius: 50px;
+    height: 40px;
+    padding-inline: 30px;
+}
+
+/* Contact button with gradient border */
+.contact-btn {
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, blue, orange) 1;
+    color: black;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    background-color: transparent;
+    white-space: nowrap;
+}
+
+.search {
+    height: 25px;
+    padding-left: 30px;
+}
+
+/* Overlay effect */
+.nav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 10;
+}
+
+.navbar-collapse.show {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    width: 80%;
+    height: 100vh;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+    z-index: 11;
+}
+
+/* Close button under Home link, only visible on mobile/tablet */
+.close-btn {
+    display: none;
+    font-size: 1.5rem;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 12;
+    margin-left: 20px;
+}
+.profile-dropdown .dropdown-menu {
+    position: absolute;
+    right: 0px; /* 20px gap from profile button */
+    top: 45px;
+    width: 150px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 0.5rem 0;
+    display: none;
+}
+@media (max-width: 768px) {
+    .close-btn {
+        display: block;
+        position: relative;
+        top: 10px;
+        margin-bottom: 1rem;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-btn {
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .search {
+        display: block;
+        margin-top: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Position profile dropdown menu slightly left of menubar button */
+    
+
+    /* Dropdown menu styling */
+    .profile-dropdown .dropdown-menu {
+        position: absolute;
+        right: 0px; /* 20px gap from profile button */
+        top: 45px;
+        width: 150px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 0.5rem 0;
+        display: none;
+    }
+
+    .profile-dropdown .dropdown-item {
+        padding: 0.5rem 1rem;
+        color: #333;
+    }
+
+    .profile-dropdown .dropdown-item:hover {
+        background-color: #f5f5f5;
+    }
+}
+
+

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career single-page</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/career.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><span style="color: #040053;">LO</span>GO</a>
+        
+        
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <button class="close-btn" onclick="toggleMenu()">&times;</button>
+    
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link active" href="#" onclick="setActive(this)">Dashboard</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" onclick="setActive(this)">My courses</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" onclick="setActive(this)">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" onclick="setActive(this)">Vision</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" onclick="setActive(this)">Service</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" onclick="setActive(this)">Careers</a></li>
+          </ul>
+    
+         
+        </div>
+    
+        <!-- Profile Dropdown on Left Side in Mobile -->
+        <div class="nav-item dropdown profile-dropdown d-flex align-items-center text-end">
+          <button class="navbar-toggler" type="button" onclick="toggleMenu()">
+            <img src="assets/images/Vector (1).png" alt="Toggle Menu Icon" />
+          </button>
+          <button class="btn profile-btn" onclick="toggleProfileMenu()">
+            <img src="assets/images/Group.png" alt="Profile Menu" />
+          </button>
+          <ul class="dropdown-menu" id="profileMenu">
+            <li><a class="dropdown-item" href="#">My Profile</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="nav-overlay" id="navOverlay" onclick="toggleMenu()"></div>
+
+
+      <!-- section 1  -->
+       <section class="container py-5">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/image14.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/image15.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/image14.png" class="d-block w-100">
+              </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- section 2 -->
+        <section class="container p-4">
+            <div class="row gy-5">
+                <div class="col-12 col-md-4 bg-secondary rounded-4 p-4 h-50">
+                        <div class="row">
+                            <div class="col-6"><p>Full Time</p></div>
+                            <div class="col-6"><p>San Francisco</p></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4"><p>$120,000</p></div>
+                            <div class="col-2"><p>-</p></div>
+                            <div class="col-4"><p>$160,000/Year</p></div>
+                        </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <h3>Job Description:</h3>
+                    <p class="">A Data Scientist is responsible for collecting, analyzing, and interpreting large amounts of data to help businesses make data-driven decisions. They use statistical tools, machine learning algorithms, and data visualization techniques to extract insights from complex datasets. A Data Scientist collaborates with different departments, including business, engineering, and IT, to identify trends, uncover patterns, and drive the organization’s strategy.</p>
+
+                    <p class=""> This role requires a blend of technical expertise, business acumen, and communication skills to uncover data patterns and make strategic recommendations. You will be instrumental in analyzing large data sets, developing algorithms, and deploying predictive models to improve processes, enhance customer experiences, and contribute to the overall growth of the company.</p>
+                </div>
+            </div>
+        </section>
+
+              <!-- section 3  -->
+       <section class="container py-3">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/image15.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/image14.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/image15.png" class="d-block w-100">
+              </div>
+            </div>
+          </div>
+       </section>
+       <!-- section 4 -->
+       <div class="container my-5 d-flex justify-content-center">
+        <div class="row">
+            <div class="col-12 text-start mx-auto">
+                <h4 class="mb-4 fw-bold">Job Responsibilities:</h4>
+                <p><span class="fs-2">&#8250;</span> Data Collection and Processing</p>
+                <p><span class="fs-2">&#8250;</span> Exploratory Data Analysis (EDA)</p>
+               <p><span class="fs-2">&#8250;</span> Model Building and Algorithm Development</p>
+               <p><span class="fs-2">&#8250;</span> Predictive Analytics and Data Insights</p>
+              <p><span class="fs-2">&#8250;</span>  Collaboration with Cross-Functional Teams</p>
+              <p><span class="fs-2">&#8250;</span>  Data Visualization and Reporting</p>
+             <p><span class="fs-2">&#8250;</span>  Advanced Analytics and Experimentation</p>
+                <p><span class="fs-2">&#8250;</span>  Staying Updated on Industry Trends</p>
+               <p><span class="fs-2">&#8250;</span>  Specialized Grading Tools in Education</p>
+               <p><span class="fs-2">&#8250;</span> Enhanced Learning Feedback</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 d-flex justify-content-center">
+      <div class="row">
+          <div class="col-12 text-md-start mx-auto">
+              <h4 class="mb-4 fw-bold">Skills Required:</h4>
+              <p><span class="fs-2">&#8250;</span> Technical Skills</p>
+              <p><span class="fs-2">&#8250;</span> Mathematics and Statistics</p>
+              <p><span class="fs-2">&#8250;</span> Data Mining and Data Warehousing</p>
+              <p><span class="fs-2">&#8250;</span> Machine Learning and Artificial Intelligence</p>
+              <p><span class="fs-2">&#8250;</span> Cloud Computing and Deployment</p>
+              <p><span class="fs-2">&#8250;</span> Problem-Solving and Critical Thinking</p>
+              <p><span class="fs-2">&#8250;</span> Communication and Collaboration</p>
+              <p><span class="fs-2">&#8250;</span> Attention to Detail</p>
+              <p><span class="fs-2">&#8250;</span> Project Management</p>
+              <p><span class="fs-2">&#8250;</span> Business Acumen</p>
+          </div>
+      </div>
+  </div>
+  <div class="text-center pb-5">
+  <button type="submit" class="btn btn-custom mt-4">
+    <i class="bi bi-caret-left-fill"></i> Apply
+</button>
+</div>
+<!-- section 5 -->
+ <section class="container p-3">
+  <div class="row">
+    <p>/ careers /</p>
+  </div>
+  <div class="row">
+    <h4 class="fw-bold">"Explore exciting career opportunities <br> with us and take the next step in your professional journey!"</h4>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <p class="text-muted">Full Time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Boston, MA</p>
+      <p class="fw-bold">$130,000&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;$160,000/year</p>
+    </div>
+    <div class="col-md-6">
+      <h5>AI Research Scientist</h5>
+      <p>Conduct advanced research in machine learning and AI technologies.Innovate AI algorithms, publish findings, and collaborate on cutting-edge projects.</p>
+    </div>
+    <div class="col-md-3">
+      <div class="text-center">
+        <button type="submit" class="btn btn-custom mt-4">
+          <i class="bi bi-caret-left-fill"></i> Explore Now
+      </button>
+      </div>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="row">
+    <div class="col-md-3">
+      <p class="text-muted">Full Time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seattle, WA</p>
+      <p class="fw-bold">$115,000&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;$145,000/year</p>
+    </div>
+    <div class="col-md-6">
+      <h5>AI Product Manager</h5>
+      <p>Oversee the development of AI products and ensure successful launches.Define product roadmaps, work with AI engineers, and manage project timelines.</p>
+    </div>
+    <div class="col-md-3">
+      <div class="text-center">
+        <button type="submit" class="btn btn-custom mt-4">
+          <i class="bi bi-caret-left-fill"></i> Explore Now
+      </button>
+      </div>
+    </div>
+  </div>
+  <div class="divider"></div>
+  <div class="row">
+    <div class="col-md-3">
+      <p class="text-muted">Full Time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Austin, TX</p>
+      <p class="fw-bold">$$120,000&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp; $150,000/year</p>
+    </div>
+    <div class="col-md-6">
+      <h5>Machine Learning Engineer</h5>
+      <p>Develop machine learning models to power data-driven applications.Build scalable models, fine-tune algorithms, and deploy ML systems.</p>
+    </div>
+    <div class="col-md-3">
+      <div class="text-center">
+        <button type="submit" class="btn btn-custom mt-4">
+          <i class="bi bi-caret-left-fill"></i> Explore Now
+      </button>
+      </div>
+    </div>
+  </div>
+  <div class="divider"></div>
+ </section>
+    
+    
+
+
+
+
+
+
+
+
+
+
+       <!-- footer section -->
+ <section class="container pt-3 footer-box">
+    <div class="row p-2">
+        <div class=" col-12 col-md-6">
+            <div class="text-center text-md-start ms-md-4">
+            <h3><span style="color: #066790;">LO</span><span style="color: brown;">GO</span></h3>
+
+            <h3  class="gradient-text mb-3">Seamless access to innovative AI solutions</h3>
+            </div>
+        </div>
+        <div class=" col-md-6 text-light">
+            <div class="row">
+                <div class="col-6 text-center">
+                <h5 class="fw-bold">Company</h5>
+                <p class="mt-3">Careers</p>
+                <p>About</p>
+                <p> LearnWithAI</p>
+                <p> Virtual AI</p>
+                <p>AI-Powered</p>
+                <p> AIEducation</p>
+                <p>Tutoring</p>
+                </div>
+                 <div class="col-6 text-center">
+                <h5 class="fw-bold">Services</h5>
+                <p class="mt-3">Blogs</p>
+                <p>AI Solutions </p>
+                <p>Computer Vision</p>
+                <p>AI Automation</p>
+                <p>LLM</p>
+                <p> Global reach</p>
+                <p>Certificate</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="small-box " style="background-color: white;">
+        <div class="row text-center pt-4">
+            <div class="col-md-6 ">
+                <p><a class="text-dark text-decoration-none" href="#">Cube@2024,All Rights Reserved</a></p>
+            </div>
+            <div class="col-md-6">
+               <p><a class="text-dark text-decoration-none" href="#">Terms of Use Policy.Environmental Policy</a></p> 
+            </div>
+        </div>
+    </div>
+ </section>
+
+       <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>

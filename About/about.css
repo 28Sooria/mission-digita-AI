@@ -1,0 +1,386 @@
+body {
+    font-family: 'Lato', sans-serif;
+  }
+
+
+
+/* 
+Header start  */
+.navbar {
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    height: 80px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: red;
+    padding-top: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.nav-item .nav-link {
+    color: #000;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.nav-item .nav-link.active {
+    background-color: #000080;
+    color: #fff;
+    border-radius: 50px;
+    /* height: 40px; */
+    padding-inline: 30px;
+}
+
+/* Contact button with gradient border */
+.contact-btn {
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, blue, orange) 1;
+    color: black;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    background-color: transparent;
+    white-space: nowrap;
+}
+
+.search {
+    height: 25px;
+    padding-left: 30px;
+}
+
+/* Overlay effect */
+.nav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 10;
+}
+
+.navbar-collapse.show {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    width: 80%;
+    height: 100vh;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+    z-index: 11;
+}
+
+/* Close button under Home link, only visible on mobile/tablet */
+.close-btn {
+    display: none; /* Hidden by default */
+    font-size: 1.5rem;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 12; /* Ensure it appears above other elements */
+    margin-left: 20px; /* Adjust as needed */
+}
+
+@media (max-width: 768px) {
+    .close-btn {
+        display: block; /* Show only on mobile and tablet views */
+        position: relative;
+        top: 10px; /* Adjust positioning under Home */
+        margin-bottom: 1rem; /* Space between close button and Home link */
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-btn {
+        display: block;
+        margin-top: 1rem;
+    }
+    .search {
+        display: block;
+        margin-top: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+
+
+        /* Custom styling for sidebar and content */
+        .sidebar {
+            background-color: #0a144d;
+            color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .sidebar .nav-link {
+            color: #fff;
+            display: flex;
+            align-items: center;
+        }
+
+        .sidebar .nav-link.active {
+            background-color: #00c3d7;
+            color: #000;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+
+        .content-section {
+            background-color: #b4f0f3;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        .content-section h3 {
+            font-weight: bold;
+        }
+
+        .feature-list p {
+            margin-bottom: 10px;
+        }
+
+        .highlight-image {
+            border-radius: 8px;
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Responsive styling */
+        @media (max-width: 768px) {
+            .sidebar, .content-section {
+                border-radius: 0;
+                padding: 20px;
+            }
+        }
+
+
+
+/* 
+Header end  */
+
+/* about mission start */
+
+.mission-text .display-6 {
+    font-weight: 400;
+    color: #03103D;
+}
+
+
+.mission-text p {
+    font-weight: 400;
+    color: #03103D;
+    font-size: 20px;
+}
+
+.about-ai h6 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+
+.about-ai h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+}
+
+
+.custom-button {
+    background-color: #FFB642;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+    width: 30%;
+  }
+
+  .custom-button:hover {
+    background-color: #e09e3d; /* Slightly darker shade for hover effect */
+  }
+
+  .tab-item .nav-link {
+    color: #fff;
+  }
+
+  /* .tab-pane {
+    background: #8EEEF0;
+  }
+   */
+  
+
+
+
+
+
+/* about mission end */
+  
+/* footer start  */
+
+.footer-box{
+    background-color: #040053;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.divider {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .divider::before, .divider::after {
+    content: "";
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    background-color: #ddd;
+    vertical-align: middle;
+  }
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #333;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #00aaff;
+}
+
+.btn-custom {
+    background-color: #ffaa42; /* Button background color */
+    color: #fff; /* Button text color */
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #e5942d;
+}
+
+.send-icon {
+    margin-right: 10px;
+}
+.gradient-text {
+    font-weight: bold;
+    background: linear-gradient(90deg, #D33434, #066790);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.small-box{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+  /* footer end  */
+
+  
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .custom-button {
+        background-color: #FFB642;
+        color: #000000;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none;
+        transition: background-color 0.3s;
+        width: 50% !important;
+      }
+    
+  }
+
+  
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .custom-button {
+        background-color: #FFB642;
+        color: #000000;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none;
+        transition: background-color 0.3s;
+        width: 50% !important;
+      }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+  
+    .custom-button {
+        background-color: #FFB642;
+        color: #000000;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none;
+        transition: background-color 0.3s;
+        width: 50% !important;
+      }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+   
+    .custom-button {
+        background-color: #FFB642;
+        color: #000000;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none;
+        transition: background-color 0.3s;
+        width: 50% !important;
+      }
+    
+  }

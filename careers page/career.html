@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>career page</title>
+    <link rel="stylesheet" href="career.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  
+    
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">LOGO</a>
+        
+        <button class="navbar-toggler" type="button" onclick="toggleMenu()">
+          <img src="assests.header/images/Vector (1).png" alt="Toggle Menu Icon" />
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <button class="close-btn" onclick="toggleMenu()">&times;</button>
+    
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link active" href="../Home/home.html" onclick="setActive(this)">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" onclick="setActive(this)">My courses</a></li>
+            <li class="nav-item"><a class="nav-link" href="../About/about.html" onclick="setActive(this)">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="../Vision/vision.html" onclick="setActive(this)">Vision</a></li>
+            <li class="nav-item"><a class="nav-link" href="../service page/service.html" onclick="setActive(this)">Service</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" onclick="setActive(this)">Careers</a></li>
+          </ul>
+    
+          <a href="#" class="btn contact-btn">Get in Touch</a>
+          <img src="assests.header/images/image 1.png" class="search" alt="Search Icon" />
+        </div>
+    
+        <!-- Profile Dropdown on Left Side in Mobile -->
+        <div class="nav-item dropdown profile-dropdown">
+          <button class="btn profile-btn" onclick="toggleProfileMenu()">
+            <img src="assests.header/images/image (8).png" alt="Profile Menu" />
+          </button>
+          <ul class="dropdown-menu" id="profileMenu">
+            <li><a class="dropdown-item" href="#">My Profile</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <div class="nav-overlay" id="navOverlay" onclick="toggleMenu()"></div>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+      <script src="header.js"></script>
+    </nav>
+  
+    <!-- start of para -->      
+    <div class="container">
+        <div>
+            <p class="para1">
+                <span style="color: red;">Shape the future with us</span>
+                <span style="color: #000000">—explore exciting career opportunities at</span>
+                <span style="color: red;">Mission Digital AI</span>
+            </p>
+        </div>
+
+        <div>
+            <p class="para2">
+                At Mission Digital AI, we are passionate about transforming education through cutting-edge technology, focusing on AI. We offer dynamic career opportunities for professionals eager to innovate and make an impact in the edtech space. Whether you're an educator, developer, designer, or AI expert,
+            </p>
+        </div>
+
+            <div class="rect-bar">
+                <img class="plus-logo" src="assests/images/media img.png" alt="vector">
+                <h2 class="rect-bar-title">Discover</h2>
+            </div>
+    </div>
+
+            <div class="bg-image-first">
+                <img src="assests/images/background img.png" alt="background-image">
+                <div class="media-container"> 
+                <img class="button1" src="assests/images/left arrow.png" alt="media-button">
+                <img class="button2" src="assests/images/right arrow.png" alt="media-button">
+                <p class="title">Home / Careers</p>
+                </div>
+                </div>
+            
+                <!-- down to the description of bg-image-->
+
+                <h4 class="text">Full Time San Francisco</h4>
+                <div class="row">
+                   
+                    <h4 class="title2">AI Engineer</h4>
+                    <div class="column">
+                      <h4 class="title1">$120,000 - $150,000/year</h4>
+                    </div>
+                    <div class="column">
+                      <p class="para3">Develop and deploy machine learning models to solve complex problems. Build AI solutions, optimize algorithms, and collaborate with data scientists.</p>
+                    </div>
+                    <div class="column">
+                      <img class="shape" src="assests/images/Rectangle 11.png" alt="Decorative shape">
+                      <p class="small-text1">Explore Now</p>
+                    </div>
+                    <div class="column">
+                      <img class="img1" src="assests/images/image 29.png" alt="Vector icon">
+                    </div>
+                  </div>
+                  <br>
+                  <div class="line"></div> <!-- Line between rows -->
+                  
+                  
+                  <div class="row">
+                    <h4 class="text1">Remote</h4>
+                    <div class="column">
+                      <h4 class="title3">$100,000 - $130,000/year</h4>
+                    </div>
+                    <div class="column">
+                      <h4 class="title4">Data Scientist</h4>
+                   </div>
+                    <div class="column">
+                      <p class="para4">Analyze and interpret complex data sets to drive business decisions. Build predictive models, perform data mining, and generate actionable insights.</p>
+                    </div>
+                  </div>
+                  <div class="yellow-bar">
+                    <p class="small-text11">Explore Now</p>
+                  </div>
+                  <br>
+                  <br>
+                  <div class="line"></div> <!-- Line between rows -->
+                  
+                  <div class="row">
+                    <h4 class="text2">Full Time Boston, MA</h4>
+                    <div class="column">
+                      <h4 class="title5">$130,000 - $160,000/year</h4>
+                    </div>
+                    <div class="column">
+                      <h4 class="title6">AI Research Scientist</h4>
+                    </div>
+                    <div class="column">
+                      <p class="para5">Conduct advanced research in machine learning and AI technologies. Innovate AI algorithms, publish findings, and collaborate on cutting-edge projects.</p>
+                    </div>
+                    <div class="column">
+                      <img class="shape2" src="assests/images/Rectangle 11.png" alt="Decorative shape">
+                      <p class="small-text2">Explore Now</p>
+                    </div>
+                    <div class="column">
+                      <img class="img2" src="assests/images/image 29.png" alt="Vector icon">
+                    </div>
+                  </div>
+                  <div class="line"></div> <!-- Line between rows -->
+                  
+                  <div class="row">
+                    <h4 class="text3">Full Time Austin, TX</h4>
+                    <div class="column">
+                      <h4 class="title7">$115,000 - $145,000/year</h4>
+                    </div>
+                    <div class="column">
+                      <h4 class="title8">AI Product Manager</h4>
+                    </div>
+                    <div class="column">
+                      <p class="para6">Oversee the development of AI products and ensure successful launches. Define product roadmaps, work with AI engineers, and manage project timelines.</p>
+                    </div>
+                    <div class="column">
+                      <img class="shape3" src="assests/images/Rectangle 11.png" alt="Decorative shape">
+                      <p class="small-text3">Explore Now</p>
+                    </div>
+                    <div class="column">
+                      <img class="img3" src="assests/images/image 29.png" alt="Vector icon">
+                    </div>
+                  </div>
+                  <div class="line"></div> <!-- Line between rows -->
+                  
+                  <div class="row">
+                    <h4 class="text4">Full Time Seattle, WA</h4>
+                    <div class="column">
+                      <h4 class="title9">$120,000 - $150,000/year</h4>
+                    </div>
+                    <div class="column">
+                      <h4 class="title10">Machine Learning Engineer</h4>
+                    </div>
+                    <div class="column">
+                      <p class="para7">Develop machine learning models to power data-driven applications. Build scalable models, fine-tune algorithms, and deploy ML systems.</p>
+                    </div>
+                    <div class="column">
+                      <img class="shape4" src="assests/images/Rectangle 11.png" alt="Decorative shape">
+                      <p class="small-text4">Explore Now</p>
+                    </div>
+                    <div class="column">
+                      <img class="img4" src="assests/images/image 29.png" alt="Vector icon">
+                    </div>
+                  </div>
+                  <div class="line"></div> <!-- Line between rows -->
+                  
+                  <div class="row">
+                    <h4 class="text5">Full Time Chicago, IL</h4>
+                    <div class="column">
+                      <h4 class="title11">$130,000 - $160,000/year</h4>
+                    </div>
+                    <div class="column">
+                      <h4 class="title12">AI Solutions Architect</h4>
+                    </div>
+                    <div class="column">
+                      <p class="para8">Design and implement AI solutions tailored to business needs. Define AI system architecture, guide engineering teams, and ensure technical feasibility.</p>
+                    </div>
+                    <div class="column">
+                      <img class="shape5" src="assests/images/Rectangle 11.png" alt="Decorative shape">
+                      <p class="small-text5">Explore Now</p>
+                    </div>
+                    <div class="column">
+                      <img class="img5" src="assests/images/image 29.png" alt="Vector icon">
+                    </div>
+                  </div>
+                  <div class="line"></div> <!-- Line between rows -->
+                  
+                  <div class="row">
+                    <h4 class="text6">Full Time Houston, TX</h4>
+                    <div class="column">
+                      <h4 class="title13">$110,000 - $145,000/year</h4>
+                    </div>
+                    <div class="column">
+                      <h4 class="title14">AI Robotics Engineer</h4>
+                    </div>
+                    <div class="column">
+                      <p class="para9">Develop AI-powered robotics systems for industrial applications. Design intelligent robots, optimize autonomous systems, and integrate AI algorithms.</p>
+                    </div>
+                    <div class="column">
+                      <img class="shape6" src="assests/images/Rectangle 11.png" alt="Decorative shape">
+                      <p class="small-text6">Explore Now</p>
+                    </div>
+                    <div class="column">
+                      <img class="img6" src="assests/images/image 29.png" alt="Vector icon">
+                    </div>
+                  </div>
+                  <div class="line"></div> <!-- Line between rows -->
+                  
+
+                   
+   <!-- footer page-->
+   <section class="footer-container">
+    <div class="footer-box">
+        <div class="footer-content">
+            <div class="contact-info">
+                <p>/ get in touch /</p>
+                <h2 class="lh-base">"We’d love to hear from you! Reach out to discuss how our AI solutions can fit your needs."</h2>
+                <p class="mt-5">Have questions or need more information? We're here to help! Get in touch with us today.</p>
+                <div class="info-box">
+                    <div>
+                        <h5>Call Center</h5>
+                        <p>+1 (123) 456-7890</p>
+                        <p>+1 (987) 654-3210</p>
+                    </div>
+                    <div>
+                        <h5>Our Location</h5>
+                        <p>123 Innovation Drive, Tech City, CA 94016</p>
+                    </div>
+                </div>
+                <div class="info-box">
+                    <div>
+                        <h5>Email</h5>
+                        <p>cube@gmail.com</p>
+                    </div>
+                    <div>
+                        <h5>Social Media</h5>
+                        <a href="#"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png" alt="Facebook"></a>
+                        <a href="#"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"></a>
+                        <a href="#"><img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h2>Get in touch</h2>
+                <p>Your journey to mastering Artificial Intelligence starts here! Connect with us!</p>
+                <form>
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea rows="4" placeholder="Message"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-links">
+            <div class="footer-logo">
+                <h3><span class="logo-part1">LO</span><span class="logo-part2">GO</span></h3>
+                <h3 class="gradient-text">Seamless access to innovative AI solutions</h3>
+            </div>
+            <div class="link-sections">
+                <div>
+                    <h5>Company</h5>
+                    <p>Careers</p>
+                    <p>About</p>
+                    <p>LearnWithAI</p>
+                    <p>Virtual AI</p>
+                    <p>AI-Powered</p>
+                </div>
+                <div>
+                    <h5>Services</h5>
+                    <p>Blogs</p>
+                    <p>AI Solutions</p>
+                    <p>Computer Vision</p>
+                    <p>AI Automation</p>
+                    <p>LLM</p>
+                </div>
+            </div>
+        </div>
+        <div class="small-box">
+            <p class="cube">Cube@2024, All Rights Reserved</p>
+            <p class="policy">Terms of Use Policy. Environmental Policy</p>
+        </div>
+    </div>
+</section>
+
+    
+    
+    <div class="nav-overlay" id="navOverlay" onclick="toggleMenu()"></div>
+  
+
+
+    <!-- js for nav-bar file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="career.js"></script>              
+              
+
+</body>
+</html>
+
+

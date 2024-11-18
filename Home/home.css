@@ -1,0 +1,605 @@
+/* General container styling */
+.container5 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.view{
+    padding-top: 10px;
+}
+.left-side1,
+.right-side1 {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Aligns content to the top */
+}
+
+.left-side1 img,
+.right-side1 img {
+    width: 100%;
+    height: auto; /* Ensure aspect ratio is maintained */
+    border-radius: 10px;
+}
+
+.right-side1 h2 {
+    font-size: 2.8rem;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.right-side1 h2 .highlight {
+    color: #ff0000;
+    font-style: italic;
+}
+
+/* Image container and overlay text */
+.image-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    
+}
+
+
+.footer-box{
+    background-color: #040053;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 20px;
+}
+.divider {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .divider::before, .divider::after {
+    content: "";
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    background-color: #ddd;
+    vertical-align: middle;
+  }
+  .contact-form {
+    background-color: #7fdefa; /* Light blue background for the form */
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #333;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #00aaff;
+}
+
+.btn-custom {
+    background-color: #ffaa42; /* Button background color */
+    color: #fff; /* Button text color */
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #e5942d;
+}
+
+.send-icon {
+    margin-right: 10px;
+}
+.gradient-text {
+    font-weight: bold;
+    background: linear-gradient(90deg, #D33434, #066790);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.small-box{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+
+
+
+/* Upper section */
+.upper {
+    background-color: #1A1A5E;
+    padding: 2rem;
+}
+
+.content-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.left-content {
+    font-family: "Libre Bodoni";
+    flex: 1;
+    color: white;
+    display: flex;
+    padding-top: 2%;
+}
+
+.left-content .line {
+    display: block;
+}
+
+.right-content {
+    flex: 1;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    background-color: #FFB642F0;
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.left-content3 {
+    width: 50%;
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #333;
+    padding: 20px;
+    padding-left: 130px;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Full-width image container styling */
+.image-container1 {
+    display: flex;
+    gap: 30px;
+    width: 100vw;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: calc(-50vw + 50%); /* Center-align full-width */
+}
+
+.left-images {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.image-wrapper img {
+    
+    height: auto;
+    border-radius: 10px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    width: 40px; /* Set the width */
+    height: 40px; /* Set the height */
+    border-radius: 50%; /* Optional: If you want it circular */
+}
+
+
+
+
+.container4 {
+    margin-top: 50px;
+    background-color: #8EEEF0;
+    
+    width: 85%; /* Set width to 85% */
+    margin: 0 auto; /* Center the container */
+    height: fit-content;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.left-side4 {
+    width: 30%;
+    padding-top: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+
+.right-side4 {
+    width: 70%;
+    padding-top: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+   
+    flex-direction: column;
+    gap: 80px; /* Space between items */
+}
+
+
+.outer-container1 {
+    display: flex;
+    align-items: flex-start; /* Aligns items at the start */
+    gap: 80px; /* Space between h2 and the div containing h4 and p */
+}
+
+.outer-container h2 {
+    margin-right: 20px; /* Space between h2 and the following div */
+}
+
+.outer-container h4 {
+    margin-top: 0;
+    margin-bottom: 10px; /* Adjusts space between h4 and p */
+}
+
+.outer-container p {
+    margin-top: 10px; /* Adds space between h4 and p */
+}
+
+
+.left-side3 {
+    width: 30%;
+    padding-top: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+
+/* Right-side content with images and descriptions */
+.right-side3 {
+    width: 70%;
+    padding-top: 5%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Space between items */
+}
+
+
+.container3 {
+    margin-top: 50px;
+    background-color: white;
+    display: flex;
+    
+    width: 100%;
+    height: fit-content;
+    border-radius: 30px;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.container2 {
+    margin-top: 50px;
+    background-color: #8EEEF0;
+    display: flex;
+    
+    width: 100%;
+    height: fit-content;
+    border-radius: 30px;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Left-side content */
+.left-side2 {
+    width: 40%;
+    padding-top: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+
+/* Right-side content with images and descriptions */
+.right-side2 {
+    width: 60%;
+    padding-top: 5%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Space between items */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .left-side2, .right-side2 {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container2 {
+        padding: 10px;
+        flex-wrap: wrap; /* Enables wrapping for smaller screens */
+    }
+
+    .left-side2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .right-side2 {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .left-side2 h2 {
+        font-size: 1.2rem;
+    }
+
+    .right-side2 h4 {
+        font-size: 1rem;
+    }
+
+    .right-side2 p {
+        font-size: 0.9rem;
+    }
+}
+
+
+.right-side2 img {
+    margin-bottom: 40px;
+}
+
+
+
+
+/* Apply flex to the outer div to align image and text side by side */
+.outer-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the top (if the text is longer than the image) */
+    gap: 20px; /* 20px gap between the image and the text */
+}
+
+/* Optional: Limit image size */
+.outer-container img {
+    max-width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+/* General navbar styles */
+.navbar {
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 1.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    height: 80px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: red;
+    padding-top: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.nav-item .nav-link {
+    color: #000;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.nav-item .nav-link.active {
+    background-color: #000080;
+    color: #fff;
+    border-radius: 50px;
+    height: 40px;
+    padding-inline: 30px;
+}
+
+/* Contact button with gradient border */
+.contact-btn {
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, blue, orange) 1;
+    color: black;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    background-color: transparent;
+    white-space: nowrap;
+}
+
+.search {
+    height: 25px;
+    padding-left: 30px;
+}
+
+.profile-btn{
+    background-color: transparent;
+}
+
+
+/* Overlay effect */
+.nav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 10;
+}
+
+.navbar-collapse.show {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    width: 80%;
+    height: 100vh;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+    z-index: 11;
+}
+
+/* Close button under Home link, only visible on mobile/tablet */
+.close-btn {
+    display: none;
+    font-size: 1.5rem;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 12;
+    margin-left: 20px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .container5 {
+        flex-direction: column;
+    }
+
+    .left-side1, .right-side1 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .right-side1 h2 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+        padding-top: 0;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .contact-btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .search {
+        width: 15%;
+        margin: 1rem auto;
+        text-align: center;
+    }
+
+    .close-btn {
+        display: block;
+        position: relative;
+        top: 20px;
+        right: 20px;
+        margin-bottom: 1rem;
+    }
+
+    .left-content3 {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    /* Position profile dropdown menu slightly left of menubar button */
+    .profile-dropdown {
+        position: absolute;
+        left: 260px; /* Adjust to control distance from menubar */
+        top: 18px;
+    }
+
+    /* Dropdown menu styling */
+    .profile-dropdown .dropdown-menu {
+        position: absolute;
+        left: 0px; /* 20px gap from profile button */
+        top: 45px;
+        width: 150px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 0.5rem 0;
+        display: none;
+    }
+
+    .profile-dropdown .dropdown-item {
+        padding: 0.5rem 1rem;
+        color: #333;
+    }
+
+    .profile-dropdown .dropdown-item:hover {
+        background-color: #f5f5f5;
+    }
+}
+
+@media (max-width: 480px) {
+    .right-side1 h2 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .overlay-text {
+        font-size: 0.8rem;
+        padding: 5px;
+        width: 80%;
+    }
+}
+
+
+

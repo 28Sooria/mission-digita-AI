@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision-page</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./vision.css">
+    <!-- <link rel="stylesheet" href="header.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><span style="color: #040053;">LO</span>GO</a>
+        
+       
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <button class="close-btn" onclick="toggleMenu()">&times;</button>
+    
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link active" href="../Home/home.html" onclick="setActive(this)">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="" onclick="setActive(this)">My courses</a></li>
+            <li class="nav-item"><a class="nav-link" href="../About/about.html" onclick="setActive(this)">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="../Vision/vision.html" onclick="setActive(this)">Vision</a></li>
+            <li class="nav-item"><a class="nav-link" href="../service page/service.html" onclick="setActive(this)">Service</a></li>
+            <li class="nav-item"><a class="nav-link" href="../careers page/career.html" onclick="setActive(this)">Careers</a></li>
+          </ul>
+    
+          <a href="#" class="btn contact-btn">Get in Touch</a>
+          <img src="assets/images/image 1.png" class="search" alt="Search Icon" />
+        </div>
+        
+    
+        <!-- Profile Dropdown on Left Side in Mobile -->
+        <div class="nav-item dropdown profile-dropdown text-end">
+            <button class="navbar-toggler text-end" type="button" onclick="toggleMenu()">
+                <img src="assets/images/Vector (1).png" alt="Toggle Menu Icon" />
+              </button>
+          <button class="btn profile-btn" onclick="toggleProfileMenu()">
+            <img src="assets/images/image (8).png" alt="Profile Menu" />
+          </button>
+          <ul class="dropdown-menu" id="profileMenu">
+            <li><a class="dropdown-item" href="#">My Profile</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <div class="nav-overlay" id="navOverlay" onclick="toggleMenu()"></div>
+    <!-- section 1 --> 
+     <section class="container py-4" >
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h2 class="lh-base">"<span style="color: brown;">Future of </span>education with AI-driven learning, making advanced <span style="color: brown;">technology </span> accessible to everyone, everywhere."</h2>
+            </div>
+            <div class="col-12 col-md-6">
+                <p class="lh-lg">We envision a future where students can develop essential skills, achieve industry-recognized certifications, and be empowered to thrive in the fast-paced digital economy. Our goal is to inspire innovation, collaboration, and lifelong learning for a better, more connected future.
+                </p>
+                <div class="text-center text-md-start">
+                    <button class="btn rounded-pill" style="background-color: #FFB642F0;">
+                        <i class="bi bi-plus-square-fill"></i> Learn more
+                    </button>
+                </div>
+            </div>
+        </div>
+     </section>
+     <section class="image-slider-section mt-4">
+        <div class="container-fluid position-relative py-5" style="background-color: #C0BFC93B;">
+           
+            <div class="imgContainer d-flex justify-content-center align-items-center position-relative overflow-hidden">
+                <!-- Slide 1 -->
+                <div class="slide_div d-flex justify-content-center align-items-center">
+                    <img src="assets/images/image01.jpg" class="img" id="img1" alt="Slide 1">
+
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide_div d-flex justify-content-center align-items-center">
+                    <img src="assets/images/image01.jpg" class="img" id="img2" alt="Slide 2">
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide_div d-flex justify-content-center align-items-center">
+                    <img src="assets/images/image02.jpg" class="img" id="img3" alt="Slide 3">
+                </div>
+                <!-- Slide 4 -->
+                <div class="slide_div d-flex justify-content-center align-items-center">
+                    <img src="assets/images/image03.jpg" class="img" id="img4" alt="Slide 4">
+                </div>
+                <!-- Slide 5 -->
+                <div class="slide_div d-flex justify-content-center align-items-center">
+                    <img src="assets/images/image04.jpg" class="img" id="img5" alt="Slide 5">
+                </div>
+                <!-- Slide 6 -->
+                <div class="slide_div d-flex justify-content-center align-items-center">
+                    <img src="assets/images/image02.jpg" class="img" id="img6" alt="Slide 6">
+                </div>
+                <!-- Slide 7 -->
+                <div class="slide_div d-flex justify-content-center align-items-center">
+                    <img src="assets/images/image03.jpg" class="img" id="img7" alt="Slide 7">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 2 -->
+     <section class="container py-4 mt-4">
+        <div class="row g-5  d-flex align-items-center justify-content-center">
+            <div class="col-12 col-md-5 ">
+                <div class="d-flex justify-content-center align-items-center position-relative" style="height: 300px;">
+                    <!-- Main Image -->
+                    <img src="assets/images/image06.png" class=" w-100 h-100 img-fluid" alt="Main Image">
+                    <div class="position-absolute text-white">
+                        <h4 class="fw-bold">OUR VISION</h4>
+                    </div>
+                    <!-- Image positioned at the bottom center -->
+                    <img src="assets/images/image07.png" class="position-absolute bottom-center img-fluid" alt="Bottom Center Image">
+                </div>
+            </div>
+            <div class="col-12 col-md-7">
+                <div class="text-center text-md-start">
+                    <h5 class="lh-lg">Vision of Mission Digital AI</h5>
+                    <p class="lh-lg">The vision of Mission Digital AI is to transform education by seamlessly integrating advanced technologies into the learning experience, making artificial intelligence accessible to all. We aspire to create an inclusive platform that fosters curiosity and innovation, empowering learners from diverse backgrounds to thrive in a digital world. By leveraging interactive, gamified content and real-world applications, we aim to cultivate critical thinking and problem-solving skills essential for navigating today’s complex landscape.</p>
+                </div>
+                
+                <div class="text-center text-md-start">
+                    <button class="btn rounded-pill" style="background-color: #FFB642F0;">
+                         Read more
+                    </button>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- section 3 -->
+     <section class="container py-4 mt-4">
+        <div class="row g-5 d-flex align-items-center  align-items-center">
+            <div class="col-12 col-md-7">
+                <div class="text-center text-md-start">
+                    <h5 class="lh-lg">Mission of Mission Digital AI</h5>
+                    <p class="lh-lg">The mission of Mission Digital AI is to democratize AI education by making it accessible, engaging, and practical for learners of all ages. The platform aims to blend technology and education, creating an interactive learning environment where students can easily grasp complex AI and cybersecurity concepts. By offering simplified lessons, gamified challenges, real-world scenarios, and localized content, Mission Digital AI strives to equip students with essential AI skills and prepare them for future digital landscapes.The Mission Digital AI, part of CubeAiSolution.</p>
+                </div>
+                  <div class="text-center text-md-start">
+                    <button class="btn rounded-pill" style="background-color: #FFB642F0;">
+                         Read more
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 ">
+                <div class="d-flex justify-content-center align-items-center position-relative" style="height: 300px;">
+                    
+                    <img src="assets/images/image8.png" class="img-fluid  w-100 h-100" alt="Main Image">
+                    <div class="position-absolute text-white">
+                        <h4 class="fw-bold">OUR MISSION</h4>
+                    </div>
+                    <img src="assets/images/image9.png" class="position-absolute bottom-center img-fluid" alt="Bottom Center Image">
+                </div>
+            </div>
+        </div>
+     </section>
+ <!-- section 4 -->
+ <section class="container py-4 mt-4">
+    <div class="row g-5 d-flex align-items-center  align-items-center">
+        <div class="col-12 col-md-5 ">
+            <div class="d-flex justify-content-center align-items-center position-relative" style="height: 300px;">
+                <!-- Main Image -->
+                <img src="assets/images/image10.png" class=" w-100 h-100 img-fluid" alt="Main Image">
+                <div class="position-absolute text-white">
+                    <h4 class="fw-bold">OUR GOALS</h4>
+                </div>
+                <!-- Image positioned at the bottom center -->
+                <img src="assets/images/image11.png" class="position-absolute bottom-center img-fluid" alt="Bottom Center Image">
+            </div>
+        </div>
+        <div class="col-12 col-md-7">
+            <div class="text-center text-md-start">
+                <h5 class="lh-lg">Goals of Mission Digital AI</h5>
+                <p class="lh-lg">Our goal is to foster a collaborative community where learners can connect with educators and industry professionals, sharing knowledge and experiences to enhance their understanding. By prioritizing inclusivity and localization, we aim to reach a diverse audience, ensuring that everyone has the opportunity to thrive in the digital age. Ultimately, we are dedicated to shaping the future of education and preparing students to navigate and excel in a technology-driven world.</p>
+            </div>
+            
+            <div class="text-center text-md-start">
+                <button class="btn rounded-pill" style="background-color: #FFB642F0;">
+                     Read more
+                </button>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- footer section -->
+ <section class="container pt-3 footer-box">
+    <div class="row px-3">
+        <div class="col-12 col-md-5 text-light">
+            <p>/ get in touch /</p>
+            <h2 class="lh-base">"We’d love to hear from you! Reach out to discuss how our AI solutions can fit your needs."</h2>
+            <p class="mt-5">Have questions or need more information? We're here to help! Get in touch with us today.</p>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <h5 class="fw-bold">Call Center</h5>
+                    <p>+1 (123) 456-7890</p>
+                    <p>+1 (987) 654-3210</p>
+                </div>
+                <div class="col-6">
+                    <h5 class="fw-bold">Our Location</h5>
+                    <p>123 Innovation Drive, Tech City, CA 94016</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6">
+                    <h5 class="fw-bold">Email</h5>
+                    <p>cube@gmail.com</p>
+                </div>
+                <div class="col-6">
+                    <h5 class="fw-bold">Social Media</h5>
+                    <a href="#" class="me-2"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png" alt="Facebook" /></a>
+                  <a href="#" class=" ms-2"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" /></a>
+                  <a href="#" class=" ms-2"><img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-7">
+                <div class="contact-form">
+                    <h2 class="mb-4">Get in touch</h2>
+                    <p>Your journey to mastering Artificial Intelligence starts here! Connect with us!</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control p-4" id="fullName" placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control p-4" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control p-4" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control p-4" id="message" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <div class="text-center text-md-start">
+                        <button type="submit" class="btn btn-custom mt-4">
+                            <i class="bi bi-caret-left-fill"></i> Send Message
+                        </button>
+                    </div>
+                    </form>
+                </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+        <div class="row p-2">
+            <div class=" col-12 col-md-6">
+                <div class="text-center text-md-start ms-md-4">
+                <h3><span style="color: #066790;">LO</span><span style="color: brown;">GO</span></h3>
+
+                <h3  class="gradient-text mb-3">Seamless access to innovative AI solutions</h3>
+                </div>
+            </div>
+            <div class=" col-md-6 text-light">
+                <div class="row">
+                    <div class="col-6 text-center">
+                    <h5 class="fw-bold">Company</h5>
+                    <p class="mt-3">Careers</p>
+                    <p>About</p>
+                    <p> LearnWithAI</p>
+                    <p> Virtual AI</p>
+                    <p>AI-Powered</p>
+                    <p> AIEducation</p>
+                    <p>Tutoring</p>
+                    </div>
+                     <div class="col-6 text-center">
+                    <h5 class="fw-bold">Services</h5>
+                    <p class="mt-3">Blogs</p>
+                    <p>AI Solutions </p>
+                    <p>Computer Vision</p>
+                    <p>AI Automation</p>
+                    <p>LLM</p>
+                    <p> Global reach</p>
+                    <p>Certificate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="small-box " style="background-color: white;">
+            <div class="row text-center pt-4">
+                <div class="col-md-6 ">
+                    <p><a class="text-dark text-decoration-none" href="#">Cube@2024,All Rights Reserved</a></p>
+                </div>
+                <div class="col-md-6">
+                   <p><a class="text-dark text-decoration-none" href="#">Terms of Use Policy.Environmental Policy</a></p> 
+                </div>
+            </div>
+        </div>
+  </section>
+
+   
+
+  
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="vision.js"></script>
+</body>
+</html>
